@@ -4,6 +4,7 @@
     "frontend-client": {
       "tags": [
         "scope:frontend-client",
+        "type:app"
       ]
     }
   },
