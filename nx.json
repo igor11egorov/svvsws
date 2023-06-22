@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "projects": {
+    "frontend-client": {
+      "tags": [
+        "scope:frontend-client",
+        "type:app"
+      ]
+    }
+  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx-cloud",
