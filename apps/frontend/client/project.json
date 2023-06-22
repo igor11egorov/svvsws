@@ -1,6 +1,18 @@
 {
   "name": "frontend-client",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projects": {
+    "frontend-client": {
+      "tags": [
+        "scope:frontend-client",
+        "type:app"
+      ]
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/angular",
+    "packageManager": "yarn"
+  },
   "projectType": "application",
   "prefix": "svvsws",
   "sourceRoot": "apps/frontend/client/src",
