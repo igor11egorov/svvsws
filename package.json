@@ -2,7 +2,14 @@
   "name": "@svvsws/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "frontend-client:start": "nx serve frontend-client",
+    "frontend-client:build": "nx build frontend-client",
+    "frontend-client:test": "nx test frontend-client",
+    "frontend-admin:start": "nx serve frontend-admin",
+    "frontend-admin:build": "nx build frontend-admin",
+    "frontend-admin:test": "nx test frontend-admin"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",
