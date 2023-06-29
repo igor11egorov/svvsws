@@ -1,6 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "projects": {
+    "ui-component": {
+      "tags": [
+        "type:lib",
+        "scope:ui-lib"
+      ]
+    },
     "backend-api": {
       "tags": [
         "type:app",

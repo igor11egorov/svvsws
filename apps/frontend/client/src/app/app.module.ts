@@ -4,20 +4,15 @@ import { RouterModule } from '@angular/router'
 import { AppComponent } from './app.component'
 import { appRoutes } from './app.routes'
 import { NxWelcomeComponent } from './nx-welcome.component'
-import { MatCardModule } from '@angular/material/card'
-import { MatButtonModule } from '@angular/material/button'
-import { MatIconModule } from '@angular/material/icon'
-import { MatTooltipModule } from '@angular/material/tooltip'
+// eslint-disable-next-line @nx/enforce-module-boundaries
+import { UiComponentModule } from '@svvsws/ui-component'
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    MatCardModule,
-    MatButtonModule,
-    MatIconModule,
-    MatTooltipModule,
+    UiComponentModule,
   ],
   // exports: [MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule],
   providers: [],
