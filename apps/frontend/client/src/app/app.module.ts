@@ -19,7 +19,7 @@ import { MatTooltipModule } from '@angular/material/tooltip'
     MatIconModule,
     MatTooltipModule,
   ],
-  exports: [MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule],
+  // exports: [MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule],
   providers: [],
   bootstrap: [AppComponent],
 })
