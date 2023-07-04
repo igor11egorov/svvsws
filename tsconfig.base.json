@@ -18,6 +18,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@svvsws/shared/data-access/interfaces": [
+        "libs/shared/data-access/interfaces/src/index.ts"
+      ],
       "@svvsws/ui-component": [
         "libs/ui-component/src/index.ts"
       ]
