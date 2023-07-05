@@ -6,6 +6,11 @@ import { ISignAuthPayload, ISignAuthResponse } from '@svvsws/shared/data-access/
 export class AuthService {
   login(signInPayload: ISignAuthPayload): Promise<ISignAuthResponse> {
     return
+    // {
+    //   accessToken: // JWT
+    //   exripesIn: // JWT
+    //   id: // user service
+    // }
   }
 
 }
