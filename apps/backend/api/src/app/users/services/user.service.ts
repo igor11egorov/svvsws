@@ -59,6 +59,7 @@ export class UserService {
    *
    * @param user provides candidate of new user into userRepository
    */
+  // TODO
   // async createUser(user: Partial<UserEntity>): Promise<UserEntity> {
   //   const newUser = await this.userRepository.create(user)
   //
