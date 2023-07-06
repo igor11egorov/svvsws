@@ -5,7 +5,7 @@ import { SignIn } from '../decorators/auth.decorators'
 import { AuthService } from '../services/auth.service'
 
 
-@Resolver
+@Resolver('Auth')
 export class AuthResolves {
   constructor(
     private readonly authService: AuthService,
