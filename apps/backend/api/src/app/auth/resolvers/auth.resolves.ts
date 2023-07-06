@@ -1,6 +1,6 @@
 import { Query, Resolver } from '@nestjs/graphql'
 // eslint-disable-next-line @nx/enforce-module-boundaries
-import { ISignAuthPayload, ISignAuthResponse } from '@svvsws/shared/data-access/interfaces'
+import type { ISignAuthPayload, ISignAuthResponse } from '@svvsws/shared/data-access/interfaces'
 import { SignIn } from '../decorators/auth.decorators'
 import { AuthService } from '../services/auth.service'
 
